@@ -32,7 +32,7 @@ Para utilizar la función y obtener la tabla con los bloques de texto, simplemen
 
 ```r
 # Ruta al archivo JSON
-json <- "pruebas/json/la_prensa_1902_documentai.json"
+json <- "documentai.json"
 
 # Llamar a la función y obtener la tabla
 tabla_bloques <- procesar_json(json)
